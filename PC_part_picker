@@ -418,7 +418,7 @@ def power_supply_needed(completed_list_no_power):
     if ram=="16 GB":
         es+=6
     elif ram=="32 GB":
-        es+12
+        es+=12
     #finishing power supply
     if es<=450:
         return "650 watt psu"
